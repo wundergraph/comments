@@ -1,0 +1,28 @@
+{
+  "locales": [
+    "ar",
+    "de",
+    "gsw",
+    "en",
+    "es",
+    "fr",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "nl",
+    "pl",
+    "pt",
+    "ro",
+    "ru",
+    "tr",
+    "vi",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["common"],
+    "/": ["config"]
+  }
+}

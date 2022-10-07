@@ -1,4 +1,4 @@
-# comments
+# [giscus][giscus]
 
 A comments system powered by [GitHub Discussions][discussions]. Let visitors leave comments and reactions on your website via GitHub! Heavily inspired by [utterances][utterances].
 
@@ -11,7 +11,7 @@ A comments system powered by [GitHub Discussions][discussions]. Let visitors lea
 - Automatically fetches new comments and edits from GitHub. 🔃
 - [Can be self-hosted][self-hosting]! 🤳
 
-> **Note**
+> **Note:**\
 > giscus is still under active development. GitHub is also still actively developing Discussions and its API. Thus, some features of giscus may break or change over time.
 
 ## How it works
@@ -20,7 +20,7 @@ When giscus loads, the [GitHub Discussions search API][search-api] is used to fi
 
 To comment, visitors must authorize the [giscus app][giscus-app] to [post on their behalf][authorization] using the GitHub OAuth flow. Alternatively, visitors can comment on the GitHub Discussion directly. You can moderate the comments on GitHub.
 
-[giscus]: https://giscus.app
+[giscus]: https://giscus.app/pl
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus
@@ -46,6 +46,17 @@ To use giscus with React, Vue, or Svelte, check out the [giscus component librar
 
 If you've previously used other systems that utilize GitHub Issues (e.g. [utterances][utterances], [gitalk][gitalk]), you can [convert the existing issues into discussions][convert]. After the conversion, just make sure that the mapping between the discussion titles and the pages are correct, then giscus will automatically use the discussions.
 
+## Sites using giscus
+
+- [laymonage.com][laymonage-website]
+- [os.phil-opp.com][os-phil-opp]
+- [Stats and R][statsandr]
+- [Tech Debt Burndown Podcast][techdebtburndown]
+- [**and many more!**][giscus-topic]
+
+## Contributing
+
+See [CONTRIBUTING.md][contributing]
 
 [giscus-component]: https://github.com/giscus/giscus-component
 [repo]: https://github.com/giscus/giscus
@@ -59,5 +70,34 @@ If you've previously used other systems that utilize GitHub Issues (e.g. [uttera
 [os-phil-opp]: https://os.phil-opp.com
 [statsandr]: https://statsandr.com
 [techdebtburndown]: https://techdebtburndown.com
+[contributing]: https://github.com/giscus/giscus/blob/main/CONTRIBUTING.md
 
+<!-- end -->
 
+---
+
+This README is available in:
+
+- [Arabic (العربية)](README.ar.md)
+- [Deutsch](README.de.md)
+- [Deutsch (Schweiz)](README.gsw.md)
+- [English](README.md)
+- [Español](README.es.md)
+- [Français](README.fr.md)
+- [Indonesia](README.id.md)
+- [Italiano](README.it.md)
+- [日本語](README.ja.md)
+- [한국어](README.ko.md)
+- [Nederlands](README.nl.md)
+- [Polski](README.pl.md)
+- [Português](README.pt.md)
+- [Română](README.ro.md)
+- [Русский](README.ru.md)
+- [Türkçe](README.tr.md)
+- [Tiếng Việt](README.vi.md)
+- [简体中文](README.zh-CN.md)
+- [繁體中文](README.zh-TW.md)
+
+[![Powered by Vercel](public/powered-by-vercel.svg)][vercel]
+
+[vercel]: https://vercel.com/?utm_source=giscus&utm_campaign=oss
