@@ -143,17 +143,19 @@ export default function Home({
         <div id="comments" className="giscus w-full my-8" />
         <Script
           src="/client.js"
-          data-repo="giscus/giscus"
-          data-repo-id="MDEwOlJlcG9zaXRvcnkzNTE5NTgwNTM="
-          data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyNzk2NTc1"
-          data-mapping="specific"
-          data-term="Welcome to giscus!"
-          data-theme="preferred_color_scheme"
+          data-repo="wundergraph/comments"
+          data-repo-id="R_kgDOIJz_Kg"
+          data-category="General"
+          data-category-id="DIC_kwDOIJz_Ks4CR2vR"
+          data-mapping="pathname"
+          data-strict="1"
           data-reactions-enabled="1"
           data-emit-metadata="0"
           data-input-position="bottom"
-          data-lang={locale}
-          data-strict="1"
+          data-theme="preferred_color_scheme"
+          data-lang="en"
+          crossOrigin="anonymous"
+          async
         />
         <a
           className="block w-max mx-auto mb-6"
