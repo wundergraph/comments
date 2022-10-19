@@ -27,7 +27,7 @@ const securityHeaders = [
   },
   {
     key: 'Content-Security-Policy',
-    value: `frame-ancestors 'self' https://wundergraph.com https://*.wundergraph.com;`,
+    value: `frame-ancestors 'self' https://wundergraph.com/* https://*.wundergraph.com;`,
   },
 ];
 
