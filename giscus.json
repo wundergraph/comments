@@ -1,7 +1,8 @@
 {
   "origins": [
-    "https://giscus.app",
-    "https://giscus.vercel.app",
+    "https://wundergraph.com",
+    "https://docs.wundergraph.com",
+    "https://giscus.wundergraph.com",
     "https://giscus-component.vercel.app"
   ],
   "originsRegex": [
