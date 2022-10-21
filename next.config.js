@@ -27,7 +27,7 @@ const securityHeaders = [
   },
   {
     key: 'Content-Security-Policy',
-    value: `frame-ancestors 'self' https://wundergraph.com/* https://*.wundergraph.com https://website-git-suvij-fix-comments-wunder-graph.vercel.app/blog/;`,
+    value: `frame-ancestors 'self' https://wundergraph.com https://*.wundergraph.com https://website-git-suvij-fix-comments-wunder-graph.vercel.app;`,
   },
 ];
 
